@@ -7,7 +7,8 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule, FormsModule
-  ]
+    CommonModule, FormsModule,
+  ],
+  bootstrap: [],
 })
 export class AppModule { }
