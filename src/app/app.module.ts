@@ -1,17 +1,13 @@
-import { FormsModule } from '@angular/forms';
-import { StudentListComponent } from './student-list/student-list.component';
 import { NgModule } from '@angular/core';
-import { AppComponent } from './app.component';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
+
 
 @NgModule({
-  declarations: [
-    // ... other components
-    StudentListComponent,
-  ],
+  declarations: [],
   imports: [
-    // ... other modules
-    FormsModule, // Add FormsModule here
-  ],
-  bootstrap: [AppComponent],
+    CommonModule, FormsModule
+  ]
 })
 export class AppModule { }
